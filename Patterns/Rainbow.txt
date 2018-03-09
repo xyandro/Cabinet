@@ -6,6 +6,7 @@ Green  00ff00
 Blue   0000ff
 Indigo 4b0082
 Violet 9400d3
+ff0000|ff7f00|ffff00|00ff00|0000ff|4b0082|9400d3
 
 6:
 Red    ff0000
@@ -14,3 +15,4 @@ Yellow ffff00
 Green  00ff00
 Blue   0000ff
 Violet 8b00ff
+ff0000|ff7f00|ffff00|00ff00|0000ff|8b00ff
