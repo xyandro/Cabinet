@@ -1,12 +1,17 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Threading;
 
 namespace Cabinet
 {
 	partial class MainWindow
 	{
+		const int TIMERDELAY = 100;
 		static ObservableCollection<Color> GetDefaultColors()
 		{
 			var lights = new ObservableCollection<Color>();
@@ -19,9 +24,16 @@ namespace Cabinet
 
 		public ObservableCollection<Color> Lights { get { return (ObservableCollection<Color>)GetValue(LightsProperty); } set { SetValue(LightsProperty, value); } }
 
+		List<Tuple<Pattern, List<int>>> Patterns = new List<Tuple<Pattern, List<int>>>();
+		TimeSpan time;
+
 		public MainWindow()
 		{
 			InitializeComponent();
+
+			var timer = new DispatcherTimer { Interval = TimeSpan.FromMilliseconds(TIMERDELAY), };
+			timer.Tick += OnTimer;
+			timer.Start();
 		}
 
 		protected override void OnKeyDown(KeyEventArgs e)
@@ -29,19 +41,48 @@ namespace Cabinet
 			switch (e.Key)
 			{
 				case Key.G:
-					for (var ctr = 0; ctr < 100; ++ctr)
-						Lights[ctr] = Colors.Green;
+					SetPatterns(Tuple.Create(new Pattern("0,00ff00"), Enumerable.Range(0, 100).ToList()));
 					break;
 				case Key.R:
-					Lights[36] = Lights[37] = Lights[38] = Lights[39] = Lights[52] = Lights[53] = Lights[54] = Lights[55] = Lights[68] = Lights[69] = Lights[70] = Lights[71] = Lights[84] = Lights[85] = Lights[86] = Lights[87] = Color.FromRgb(0, 0, 255);
-					Lights[16] = Lights[17] = Lights[18] = Lights[19] = Lights[32] = Lights[33] = Lights[34] = Lights[35] = Lights[48] = Lights[49] = Lights[50] = Lights[51] = Lights[64] = Lights[65] = Lights[66] = Lights[67] = Lights[80] = Lights[81] = Lights[82] = Lights[83] = Color.FromRgb(0, 255, 0);
-					Lights[56] = Lights[57] = Lights[58] = Lights[59] = Lights[72] = Lights[73] = Lights[74] = Lights[75] = Lights[88] = Lights[89] = Lights[90] = Lights[91] = Color.FromRgb(75, 0, 130);
-					Lights[76] = Lights[77] = Lights[78] = Lights[79] = Lights[92] = Lights[93] = Lights[94] = Lights[95] = Lights[96] = Lights[97] = Lights[98] = Lights[99] = Color.FromRgb(148, 0, 211);
-					Lights[00] = Lights[01] = Lights[02] = Lights[03] = Lights[04] = Lights[05] = Lights[06] = Lights[07] = Lights[20] = Lights[21] = Lights[22] = Lights[23] = Color.FromRgb(255, 0, 0);
-					Lights[08] = Lights[09] = Lights[10] = Lights[11] = Lights[24] = Lights[25] = Lights[26] = Lights[27] = Lights[40] = Lights[41] = Lights[42] = Lights[43] = Color.FromRgb(255, 127, 0);
-					Lights[12] = Lights[13] = Lights[14] = Lights[15] = Lights[28] = Lights[29] = Lights[30] = Lights[31] = Lights[44] = Lights[45] = Lights[46] = Lights[47] = Lights[60] = Lights[61] = Lights[62] = Lights[63] = Color.FromRgb(255, 255, 0);
+					SetPatterns(
+						Tuple.Create(new Pattern("0,0000ff"), new List<int> { 36, 37, 38, 39, 52, 53, 54, 55, 68, 69, 70, 71, 84, 85, 86, 87 }),
+						Tuple.Create(new Pattern("0,00ff00"), new List<int> { 16, 17, 18, 19, 32, 33, 34, 35, 48, 49, 50, 51, 64, 65, 66, 67, 80, 81, 82, 83 }),
+						Tuple.Create(new Pattern("0,4b0082"), new List<int> { 56, 57, 58, 59, 72, 73, 74, 75, 88, 89, 90, 91 }),
+						Tuple.Create(new Pattern("0,9400d3"), new List<int> { 76, 77, 78, 79, 92, 93, 94, 95, 96, 97, 98, 99 }),
+						Tuple.Create(new Pattern("0,ff0000"), new List<int> { 00, 01, 02, 03, 04, 05, 06, 07, 20, 21, 22, 23 }),
+						Tuple.Create(new Pattern("0,ff7f00"), new List<int> { 08, 09, 10, 11, 24, 25, 26, 27, 40, 41, 42, 43 }),
+						Tuple.Create(new Pattern("0,ffff00"), new List<int> { 12, 13, 14, 15, 28, 29, 30, 31, 44, 45, 46, 47, 60, 61, 62, 63 })
+					);
+					break;
+				case Key.S:
+					SetPatterns(
+						Tuple.Create(new Pattern("0,ff0000|1000,ff7f00|1000,ffff00|1000,00ff00|1000,0000ff|1000,4b0082|1000,9400d3|1000,ff0000"), new List<int> { 00, 01, 02, 03, 04, 05, 06, 07, 20, 21, 22, 23 }),
+						Tuple.Create(new Pattern("0,ff7f00|1000,ffff00|1000,00ff00|1000,0000ff|1000,4b0082|1000,9400d3|1000,ff0000|1000,ff7f00"), new List<int> { 08, 09, 10, 11, 24, 25, 26, 27, 40, 41, 42, 43 }),
+						Tuple.Create(new Pattern("0,ffff00|1000,00ff00|1000,0000ff|1000,4b0082|1000,9400d3|1000,ff0000|1000,ff7f00|1000,ffff00"), new List<int> { 12, 13, 14, 15, 28, 29, 30, 31, 44, 45, 46, 47, 60, 61, 62, 63 }),
+						Tuple.Create(new Pattern("0,00ff00|1000,0000ff|1000,4b0082|1000,9400d3|1000,ff0000|1000,ff7f00|1000,ffff00|1000,00ff00"), new List<int> { 16, 17, 18, 19, 32, 33, 34, 35, 48, 49, 50, 51, 64, 65, 66, 67, 80, 81, 82, 83 }),
+						Tuple.Create(new Pattern("0,0000ff|1000,4b0082|1000,9400d3|1000,ff0000|1000,ff7f00|1000,ffff00|1000,00ff00|1000,0000ff"), new List<int> { 36, 37, 38, 39, 52, 53, 54, 55, 68, 69, 70, 71, 84, 85, 86, 87 }),
+						Tuple.Create(new Pattern("0,4b0082|1000,9400d3|1000,ff0000|1000,ff7f00|1000,ffff00|1000,00ff00|1000,0000ff|1000,4b0082"), new List<int> { 56, 57, 58, 59, 72, 73, 74, 75, 88, 89, 90, 91 }),
+						Tuple.Create(new Pattern("0,9400d3|1000,ff0000|1000,ff7f00|1000,ffff00|1000,00ff00|1000,0000ff|1000,4b0082|1000,9400d3"), new List<int> { 76, 77, 78, 79, 92, 93, 94, 95, 96, 97, 98, 99 })
+					);
 					break;
 			}
+		}
+
+		void SetPatterns(params Tuple<Pattern, List<int>>[] patterns)
+		{
+			time = default(TimeSpan);
+			Patterns = patterns.ToList();
+		}
+
+		void OnTimer(object sender, EventArgs e)
+		{
+			foreach (var tuple in Patterns)
+			{
+				var color = tuple.Item1.GetColor(time);
+				foreach (var light in tuple.Item2)
+					Lights[light] = color;
+			}
+			time += TimeSpan.FromMilliseconds(TIMERDELAY);
 		}
 	}
 }
