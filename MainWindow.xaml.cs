@@ -40,10 +40,10 @@ namespace Cabinet
 		{
 			switch (e.Key)
 			{
-				case Key.G:
+				case Key.D1:
 					SetPatterns(Tuple.Create(new Pattern("0,00ff00"), Enumerable.Range(0, 100).ToList()));
 					break;
-				case Key.R:
+				case Key.D2:
 					SetPatterns(
 						Tuple.Create(new Pattern("0,0000ff"), new List<int> { 36, 37, 38, 39, 52, 53, 54, 55, 68, 69, 70, 71, 84, 85, 86, 87 }),
 						Tuple.Create(new Pattern("0,00ff00"), new List<int> { 16, 17, 18, 19, 32, 33, 34, 35, 48, 49, 50, 51, 64, 65, 66, 67, 80, 81, 82, 83 }),
@@ -54,7 +54,7 @@ namespace Cabinet
 						Tuple.Create(new Pattern("0,ffff00"), new List<int> { 12, 13, 14, 15, 28, 29, 30, 31, 44, 45, 46, 47, 60, 61, 62, 63 })
 					);
 					break;
-				case Key.S:
+				case Key.D3:
 					SetPatterns(
 						Tuple.Create(new Pattern("0,000000|500,ff0000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,4b0082|500,9400d3|500,ff0000|500,ff0000|500,000000"), new List<int> { 00, 01, 02, 03, 04, 05, 06, 07, 20, 21, 22, 23 }),
 						Tuple.Create(new Pattern("0,000000|500,ff7f00|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,4b0082|500,9400d3|500,ff0000|500,ff7f00|500,ff7f00|500,000000"), new List<int> { 08, 09, 10, 11, 24, 25, 26, 27, 40, 41, 42, 43 }),
@@ -65,7 +65,7 @@ namespace Cabinet
 						Tuple.Create(new Pattern("0,000000|500,9400d3|500,9400d3|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,4b0082|500,9400d3|500,9400d3|500,000000"), new List<int> { 76, 77, 78, 79, 92, 93, 94, 95, 96, 97, 98, 99 })
 					);
 					break;
-				case Key.D:
+				case Key.D4:
 					SetPatterns(
 						Tuple.Create(new Pattern("0,000000|0006,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 00 }),
 						Tuple.Create(new Pattern("0,000000|0106,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 01, 02 }),
@@ -94,6 +94,22 @@ namespace Cabinet
 						Tuple.Create(new Pattern("0,000000|0927,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 79, 95 }),
 						Tuple.Create(new Pattern("0,000000|0930,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 97, 98 }),
 						Tuple.Create(new Pattern("0,000000|1030,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 99 })
+					);
+					break;
+				case Key.D5:
+					SetPatterns(
+						Tuple.Create(new Pattern("0,000000|000,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 48, 49, 50, 51 }),
+						Tuple.Create(new Pattern("0,000000|006,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 30, 31, 45, 47, 52, 54, 68, 69 }),
+						Tuple.Create(new Pattern("0,000000|012,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 27, 34, 65, 72 }),
+						Tuple.Create(new Pattern("0,000000|206,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 28, 29, 44, 46, 53, 55, 70, 71 }),
+						Tuple.Create(new Pattern("0,000000|212,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 10, 11, 25, 26, 32, 35, 41, 43, 56, 58, 64, 67, 73, 74, 88, 89 }),
+						Tuple.Create(new Pattern("0,000000|218,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 07, 14, 23, 38, 61, 76, 85, 92 }),
+						Tuple.Create(new Pattern("0,000000|412,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 08, 09, 24, 33, 40, 42, 57, 59, 66, 75, 90, 91 }),
+						Tuple.Create(new Pattern("0,000000|418,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 05, 06, 12, 15, 21, 22, 36, 39, 60, 63, 77, 78, 84, 87, 93, 94 }),
+						Tuple.Create(new Pattern("0,000000|424,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 03, 18, 81, 96 }),
+						Tuple.Create(new Pattern("0,000000|618,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 04, 13, 20, 37, 62, 79, 86, 95 }),
+						Tuple.Create(new Pattern("0,000000|624,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 01, 02, 16, 19, 80, 83, 97, 98 }),
+						Tuple.Create(new Pattern("0,000000|824,000000|500,ff0000|500,ff7f00|500,ffff00|500,00ff00|500,0000ff|500,8b00ff|500,000000"), new List<int> { 00, 17, 82, 99 })
 					);
 					break;
 			}
