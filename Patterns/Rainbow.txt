@@ -1,0 +1,7 @@
+Red    ff0000
+Orange ff7f00
+Yellow ffff00
+Green  00ff00
+Blue   0000ff
+Indigo 4b0082
+Violet 9400d3
