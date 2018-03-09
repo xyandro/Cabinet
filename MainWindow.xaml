@@ -16,13 +16,13 @@
 			<ColumnDefinition/>
 		</Grid.ColumnDefinitions>
 
-		<Canvas Grid.Row="1" Grid.Column="1" Width="1005" Height="1005">
+		<Canvas Grid.Row="1" Grid.Column="1" Width="1036" Height="1036">
 			<Canvas.LayoutTransform>
 				<ScaleTransform ScaleX=".7" ScaleY=".7"/>
 			</Canvas.LayoutTransform>
 
-			<Canvas Canvas.Left="0" Canvas.Top="0" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="0" Canvas.Top="0" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[0], ElementName=self}" Offset="0"/>
@@ -30,7 +30,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[1], ElementName=self}" Offset="0"/>
@@ -38,7 +38,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[2], ElementName=self}" Offset="0"/>
@@ -46,7 +46,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[3], ElementName=self}" Offset="0"/>
@@ -55,14 +55,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="200" Canvas.Top="0" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="206" Canvas.Top="0" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[4], ElementName=self}" Offset="0"/>
@@ -70,7 +70,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[5], ElementName=self}" Offset="0"/>
@@ -78,7 +78,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[6], ElementName=self}" Offset="0"/>
@@ -86,7 +86,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[7], ElementName=self}" Offset="0"/>
@@ -95,14 +95,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="400" Canvas.Top="0" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="412" Canvas.Top="0" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[8], ElementName=self}" Offset="0"/>
@@ -110,7 +110,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[9], ElementName=self}" Offset="0"/>
@@ -118,7 +118,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[10], ElementName=self}" Offset="0"/>
@@ -126,7 +126,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[11], ElementName=self}" Offset="0"/>
@@ -135,14 +135,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="600" Canvas.Top="0" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="618" Canvas.Top="0" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[12], ElementName=self}" Offset="0"/>
@@ -150,7 +150,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[13], ElementName=self}" Offset="0"/>
@@ -158,7 +158,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[14], ElementName=self}" Offset="0"/>
@@ -166,7 +166,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[15], ElementName=self}" Offset="0"/>
@@ -175,14 +175,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="800" Canvas.Top="0" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="824" Canvas.Top="0" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[16], ElementName=self}" Offset="0"/>
@@ -190,7 +190,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[17], ElementName=self}" Offset="0"/>
@@ -198,7 +198,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[18], ElementName=self}" Offset="0"/>
@@ -206,7 +206,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[19], ElementName=self}" Offset="0"/>
@@ -215,14 +215,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="0" Canvas.Top="200" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="0" Canvas.Top="206" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[20], ElementName=self}" Offset="0"/>
@@ -230,7 +230,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[21], ElementName=self}" Offset="0"/>
@@ -238,7 +238,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[22], ElementName=self}" Offset="0"/>
@@ -246,7 +246,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[23], ElementName=self}" Offset="0"/>
@@ -255,14 +255,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="200" Canvas.Top="200" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="206" Canvas.Top="206" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[24], ElementName=self}" Offset="0"/>
@@ -270,7 +270,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[25], ElementName=self}" Offset="0"/>
@@ -278,7 +278,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[26], ElementName=self}" Offset="0"/>
@@ -286,7 +286,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[27], ElementName=self}" Offset="0"/>
@@ -295,14 +295,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="400" Canvas.Top="200" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="412" Canvas.Top="206" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[28], ElementName=self}" Offset="0"/>
@@ -310,7 +310,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[29], ElementName=self}" Offset="0"/>
@@ -318,7 +318,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[30], ElementName=self}" Offset="0"/>
@@ -326,7 +326,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[31], ElementName=self}" Offset="0"/>
@@ -335,14 +335,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="600" Canvas.Top="200" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="618" Canvas.Top="206" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[32], ElementName=self}" Offset="0"/>
@@ -350,7 +350,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[33], ElementName=self}" Offset="0"/>
@@ -358,7 +358,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[34], ElementName=self}" Offset="0"/>
@@ -366,7 +366,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[35], ElementName=self}" Offset="0"/>
@@ -375,14 +375,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="800" Canvas.Top="200" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="824" Canvas.Top="206" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[36], ElementName=self}" Offset="0"/>
@@ -390,7 +390,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[37], ElementName=self}" Offset="0"/>
@@ -398,7 +398,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[38], ElementName=self}" Offset="0"/>
@@ -406,7 +406,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[39], ElementName=self}" Offset="0"/>
@@ -415,14 +415,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="0" Canvas.Top="400" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="0" Canvas.Top="412" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[40], ElementName=self}" Offset="0"/>
@@ -430,7 +430,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[41], ElementName=self}" Offset="0"/>
@@ -438,7 +438,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[42], ElementName=self}" Offset="0"/>
@@ -446,7 +446,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[43], ElementName=self}" Offset="0"/>
@@ -455,14 +455,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="200" Canvas.Top="400" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="206" Canvas.Top="412" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[44], ElementName=self}" Offset="0"/>
@@ -470,7 +470,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[45], ElementName=self}" Offset="0"/>
@@ -478,7 +478,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[46], ElementName=self}" Offset="0"/>
@@ -486,7 +486,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[47], ElementName=self}" Offset="0"/>
@@ -495,14 +495,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="400" Canvas.Top="400" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="412" Canvas.Top="412" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[48], ElementName=self}" Offset="0"/>
@@ -510,7 +510,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[49], ElementName=self}" Offset="0"/>
@@ -518,7 +518,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[50], ElementName=self}" Offset="0"/>
@@ -526,7 +526,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[51], ElementName=self}" Offset="0"/>
@@ -535,14 +535,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="600" Canvas.Top="400" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="618" Canvas.Top="412" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[52], ElementName=self}" Offset="0"/>
@@ -550,7 +550,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[53], ElementName=self}" Offset="0"/>
@@ -558,7 +558,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[54], ElementName=self}" Offset="0"/>
@@ -566,7 +566,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[55], ElementName=self}" Offset="0"/>
@@ -575,14 +575,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="800" Canvas.Top="400" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="824" Canvas.Top="412" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[56], ElementName=self}" Offset="0"/>
@@ -590,7 +590,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[57], ElementName=self}" Offset="0"/>
@@ -598,7 +598,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[58], ElementName=self}" Offset="0"/>
@@ -606,7 +606,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[59], ElementName=self}" Offset="0"/>
@@ -615,14 +615,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="0" Canvas.Top="600" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="0" Canvas.Top="618" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[60], ElementName=self}" Offset="0"/>
@@ -630,7 +630,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[61], ElementName=self}" Offset="0"/>
@@ -638,7 +638,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[62], ElementName=self}" Offset="0"/>
@@ -646,7 +646,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[63], ElementName=self}" Offset="0"/>
@@ -655,14 +655,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="200" Canvas.Top="600" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="206" Canvas.Top="618" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[64], ElementName=self}" Offset="0"/>
@@ -670,7 +670,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[65], ElementName=self}" Offset="0"/>
@@ -678,7 +678,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[66], ElementName=self}" Offset="0"/>
@@ -686,7 +686,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[67], ElementName=self}" Offset="0"/>
@@ -695,14 +695,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="400" Canvas.Top="600" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="412" Canvas.Top="618" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[68], ElementName=self}" Offset="0"/>
@@ -710,7 +710,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[69], ElementName=self}" Offset="0"/>
@@ -718,7 +718,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[70], ElementName=self}" Offset="0"/>
@@ -726,7 +726,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[71], ElementName=self}" Offset="0"/>
@@ -735,14 +735,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="600" Canvas.Top="600" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="618" Canvas.Top="618" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[72], ElementName=self}" Offset="0"/>
@@ -750,7 +750,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[73], ElementName=self}" Offset="0"/>
@@ -758,7 +758,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[74], ElementName=self}" Offset="0"/>
@@ -766,7 +766,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[75], ElementName=self}" Offset="0"/>
@@ -775,14 +775,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="800" Canvas.Top="600" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="824" Canvas.Top="618" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[76], ElementName=self}" Offset="0"/>
@@ -790,7 +790,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[77], ElementName=self}" Offset="0"/>
@@ -798,7 +798,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[78], ElementName=self}" Offset="0"/>
@@ -806,7 +806,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[79], ElementName=self}" Offset="0"/>
@@ -815,14 +815,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="0" Canvas.Top="800" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="0" Canvas.Top="824" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[80], ElementName=self}" Offset="0"/>
@@ -830,7 +830,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[81], ElementName=self}" Offset="0"/>
@@ -838,7 +838,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[82], ElementName=self}" Offset="0"/>
@@ -846,7 +846,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[83], ElementName=self}" Offset="0"/>
@@ -855,14 +855,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="200" Canvas.Top="800" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="206" Canvas.Top="824" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[84], ElementName=self}" Offset="0"/>
@@ -870,7 +870,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[85], ElementName=self}" Offset="0"/>
@@ -878,7 +878,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[86], ElementName=self}" Offset="0"/>
@@ -886,7 +886,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[87], ElementName=self}" Offset="0"/>
@@ -895,14 +895,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="400" Canvas.Top="800" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="412" Canvas.Top="824" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[88], ElementName=self}" Offset="0"/>
@@ -910,7 +910,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[89], ElementName=self}" Offset="0"/>
@@ -918,7 +918,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[90], ElementName=self}" Offset="0"/>
@@ -926,7 +926,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[91], ElementName=self}" Offset="0"/>
@@ -935,14 +935,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="600" Canvas.Top="800" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="618" Canvas.Top="824" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[92], ElementName=self}" Offset="0"/>
@@ -950,7 +950,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[93], ElementName=self}" Offset="0"/>
@@ -958,7 +958,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[94], ElementName=self}" Offset="0"/>
@@ -966,7 +966,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[95], ElementName=self}" Offset="0"/>
@@ -975,14 +975,14 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 
-			<Canvas Canvas.Left="800" Canvas.Top="800" Width="205" Height="205" ClipToBounds="True">
-				<Ellipse Canvas.Left="-95" Canvas.Top="-95" Width="200" Height="200">
+			<Canvas Canvas.Left="824" Canvas.Top="824" Width="212" Height="212" ClipToBounds="True">
+				<Ellipse Canvas.Left="-94" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[96], ElementName=self}" Offset="0"/>
@@ -990,7 +990,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="-95" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="-94" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[97], ElementName=self}" Offset="0"/>
@@ -998,7 +998,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="-95" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="-94" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[98], ElementName=self}" Offset="0"/>
@@ -1006,7 +1006,7 @@
 						</RadialGradientBrush>
 					</Ellipse.Fill>
 				</Ellipse>
-				<Ellipse Canvas.Left="105" Canvas.Top="105" Width="200" Height="200">
+				<Ellipse Canvas.Left="106" Canvas.Top="106" Width="200" Height="200">
 					<Ellipse.Fill>
 						<RadialGradientBrush>
 							<GradientStop Color="{Binding Lights[99], ElementName=self}" Offset="0"/>
@@ -1015,10 +1015,10 @@
 					</Ellipse.Fill>
 				</Ellipse>
 
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="200" Width="205" Height="5" Fill="White"/>
-				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
-				<Rectangle Canvas.Left="200" Canvas.Top="0" Width="5" Height="205" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="206" Width="212" Height="6" Fill="White"/>
+				<Rectangle Canvas.Left="0" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
+				<Rectangle Canvas.Left="206" Canvas.Top="0" Width="6" Height="212" Fill="White"/>
 			</Canvas>
 		</Canvas>
 	</Grid>
