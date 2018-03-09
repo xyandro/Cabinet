@@ -34,6 +34,14 @@ namespace Cabinet
 			var timer = new DispatcherTimer { Interval = TimeSpan.FromMilliseconds(TIMERDELAY), };
 			timer.Tick += OnTimer;
 			timer.Start();
+			Loaded += MainWindow_Loaded;
+		}
+
+		private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+		{
+			Left = -1920;
+			Top = 0;
+			WindowState = WindowState.Maximized;
 		}
 
 		protected override void OnKeyDown(KeyEventArgs e)
